@@ -1,0 +1,10 @@
+D:\DotNet\BankSolution1\BankClientConApp\bin\Debug\BankClientConApp.exe.config
+D:\DotNet\BankSolution1\BankClientConApp\bin\Debug\BankClientConApp.exe
+D:\DotNet\BankSolution1\BankClientConApp\bin\Debug\BankClientConApp.pdb
+D:\DotNet\BankSolution1\BankClientConApp\bin\Debug\BankLibrary.dll
+D:\DotNet\BankSolution1\BankClientConApp\bin\Debug\BankLibrary.pdb
+D:\DotNet\BankSolution1\BankClientConApp\obj\Debug\BankClientConApp.csprojAssemblyReference.cache
+D:\DotNet\BankSolution1\BankClientConApp\obj\Debug\BankClientConApp.csproj.CoreCompileInputs.cache
+D:\DotNet\BankSolution1\BankClientConApp\obj\Debug\BankClientConApp.csproj.CopyComplete
+D:\DotNet\BankSolution1\BankClientConApp\obj\Debug\BankClientConApp.exe
+D:\DotNet\BankSolution1\BankClientConApp\obj\Debug\BankClientConApp.pdb
