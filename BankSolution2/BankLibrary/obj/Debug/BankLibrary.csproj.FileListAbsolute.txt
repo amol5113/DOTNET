@@ -1,0 +1,6 @@
+D:\DotNet\BankSolution2\BankLibrary\bin\Debug\BankLibrary.dll
+D:\DotNet\BankSolution2\BankLibrary\bin\Debug\BankLibrary.pdb
+D:\DotNet\BankSolution2\BankLibrary\obj\Debug\BankLibrary.csprojAssemblyReference.cache
+D:\DotNet\BankSolution2\BankLibrary\obj\Debug\BankLibrary.csproj.CoreCompileInputs.cache
+D:\DotNet\BankSolution2\BankLibrary\obj\Debug\BankLibrary.dll
+D:\DotNet\BankSolution2\BankLibrary\obj\Debug\BankLibrary.pdb
