@@ -1,0 +1,10 @@
+D:\Client\CDACJun2019\GenericsSolution\GenericsClientConApp\bin\Debug\GenericsClientConApp.exe.config
+D:\Client\CDACJun2019\GenericsSolution\GenericsClientConApp\bin\Debug\GenericsClientConApp.exe
+D:\Client\CDACJun2019\GenericsSolution\GenericsClientConApp\bin\Debug\GenericsClientConApp.pdb
+D:\Client\CDACJun2019\GenericsSolution\GenericsClientConApp\bin\Debug\GenericsLibrary.dll
+D:\Client\CDACJun2019\GenericsSolution\GenericsClientConApp\bin\Debug\GenericsLibrary.pdb
+D:\Client\CDACJun2019\GenericsSolution\GenericsClientConApp\obj\Debug\GenericsClientConApp.csprojAssemblyReference.cache
+D:\Client\CDACJun2019\GenericsSolution\GenericsClientConApp\obj\Debug\GenericsClientConApp.csproj.CoreCompileInputs.cache
+D:\Client\CDACJun2019\GenericsSolution\GenericsClientConApp\obj\Debug\GenericsClientConApp.csproj.CopyComplete
+D:\Client\CDACJun2019\GenericsSolution\GenericsClientConApp\obj\Debug\GenericsClientConApp.exe
+D:\Client\CDACJun2019\GenericsSolution\GenericsClientConApp\obj\Debug\GenericsClientConApp.pdb

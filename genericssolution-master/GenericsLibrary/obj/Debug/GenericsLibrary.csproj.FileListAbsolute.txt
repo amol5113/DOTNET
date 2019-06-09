@@ -1,0 +1,6 @@
+D:\Client\CDACJun2019\GenericsSolution\GenericsLibrary\bin\Debug\GenericsLibrary.dll
+D:\Client\CDACJun2019\GenericsSolution\GenericsLibrary\bin\Debug\GenericsLibrary.pdb
+D:\Client\CDACJun2019\GenericsSolution\GenericsLibrary\obj\Debug\GenericsLibrary.csprojAssemblyReference.cache
+D:\Client\CDACJun2019\GenericsSolution\GenericsLibrary\obj\Debug\GenericsLibrary.csproj.CoreCompileInputs.cache
+D:\Client\CDACJun2019\GenericsSolution\GenericsLibrary\obj\Debug\GenericsLibrary.dll
+D:\Client\CDACJun2019\GenericsSolution\GenericsLibrary\obj\Debug\GenericsLibrary.pdb

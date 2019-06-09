@@ -1,0 +1,75 @@
+﻿<Window x:Class="WpfDemoApp.Bindings.UserInfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDemoApp.Bindings"
+        mc:Ignorable="d"
+        Title="UserInfoWindow" Height="450" Width="800">
+  <Grid>
+    <Grid.Resources>
+      <DataTemplate x:Key="UserInfoTemplate">
+        <StackPanel Orientation="Horizontal">
+        <TextBlock Text="{Binding UserName}" Height="35" Width="90" Padding="0, 5, 0, 0"/>
+        <TextBlock Text="{Binding Age}" Height="35" Width="90" Padding="0, 5, 0, 0" Margin="5, 0, 0, 0"/>
+          <TextBlock Text="{Binding FavColor}" Height="35" Width="90" Padding="0, 5, 0, 0" Margin="5, 0, 0, 0"/>
+          <Rectangle Height="35" Width="90" Margin="5, 0, 0, 0" Fill="{Binding FavColor}"/>
+        </StackPanel>
+      </DataTemplate>
+    </Grid.Resources>
+    
+    
+    <Grid.RowDefinitions>
+      <RowDefinition Height="4*"/>
+      <RowDefinition Height="4*"/>
+      <RowDefinition Height="1*"/>
+    </Grid.RowDefinitions>
+
+    <StackPanel Grid.Row="0">
+      <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0, 10, 0, 0">
+        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="4">
+          <TextBlock Height="35" Width="80" Text="UserName: " TextAlignment="Right" Padding="0, 10, 0, 0"/>
+        </Border>
+        <TextBox x:Name="userNameTextBox" Height="35" Width="120" Margin="4, 0, 0, 0"/>
+      </StackPanel>
+      <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0, 10, 0, 0">
+        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="4">
+          <TextBlock Height="35" Width="80" Text="Age: " TextAlignment="Right" Padding="0, 10, 0, 0"/>
+        </Border>
+        <TextBox x:Name="ageTextBox" Height="35" Width="120" Margin="4, 0, 0, 0"/>
+      </StackPanel>
+      <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0, 10, 0, 0">
+        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="4">
+          <TextBlock Height="35" Width="80" Text="Fav Color: " TextAlignment="Right" Padding="0, 10, 0, 0"/>
+        </Border>
+        <TextBox x:Name="favColorTextBox" Height="35" Width="120" Margin="4, 0, 0, 0"/>
+      </StackPanel>
+      <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0, 10, 0, 0">
+        <Button x:Name="addNewUserButton" Content="Add _New User" Height="35" Width="120" Click="AddNewUserButton_Click"/>
+        <Button x:Name="uCancelButton" Content="Cancel" Height="35" Width="120" Margin="4, 0, 0, 0"/>
+      </StackPanel>
+
+    </StackPanel>
+
+    <ListBox x:Name="userInfoListBox" Grid.Row="1" Margin="10" ScrollViewer.VerticalScrollBarVisibility="Visible"
+             ItemsSource="{Binding}"
+             ItemTemplate="{StaticResource UserInfoTemplate}"
+             IsSynchronizedWithCurrentItem="True"/>
+
+    <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="0, 10, 0, 0">
+        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="4">
+          <TextBlock Height="35" Width="80" Text="UserName: " TextAlignment="Right" Padding="0, 10, 0, 0"/>
+        </Border>
+        <TextBox x:Name="euserNameTextBox" Text="{Binding UserName}" Height="35" Width="120" Margin="4, 0, 0, 0"/>
+        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="4" Margin="5, 0, 0, 0">
+          <TextBlock Height="35" Width="80" Text="Age: " TextAlignment="Right" Padding="0, 10, 0, 0"/>
+        </Border>
+      <TextBox x:Name="eageTextBox" Text="{Binding Age}" Height="35" Width="120" Margin="4, 0, 0, 0"/>
+      <Border BorderBrush="Black" BorderThickness="1" CornerRadius="4" Margin="5, 0, 0, 0">
+          <TextBlock Height="35" Width="80" Text="Fav Color: " TextAlignment="Right" Padding="0, 10, 0, 0"/>
+        </Border>
+      <TextBox x:Name="efavColorTextBox" Text="{Binding FavColor}" Height="35" Width="120" Margin="4, 0, 0, 0"/>
+      </StackPanel>
+
+  </Grid>
+</Window>
