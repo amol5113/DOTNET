@@ -1,0 +1,7 @@
+C:\Users\DAC-4\source\repos\DotNet35FSol\LINQToSQLConApp\obj\Debug\LINQToSQLConApp.csprojAssemblyReference.cache
+C:\Users\DAC-4\source\repos\DotNet35FSol\LINQToSQLConApp\obj\Debug\LINQToSQLConApp.csproj.CoreCompileInputs.cache
+C:\Users\DAC-4\source\repos\DotNet35FSol\LINQToSQLConApp\bin\Debug\LINQToSQLConApp.exe.config
+C:\Users\DAC-4\source\repos\DotNet35FSol\LINQToSQLConApp\bin\Debug\LINQToSQLConApp.exe
+C:\Users\DAC-4\source\repos\DotNet35FSol\LINQToSQLConApp\bin\Debug\LINQToSQLConApp.pdb
+C:\Users\DAC-4\source\repos\DotNet35FSol\LINQToSQLConApp\obj\Debug\LINQToSQLConApp.exe
+C:\Users\DAC-4\source\repos\DotNet35FSol\LINQToSQLConApp\obj\Debug\LINQToSQLConApp.pdb

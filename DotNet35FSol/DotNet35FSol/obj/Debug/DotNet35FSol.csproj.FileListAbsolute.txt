@@ -1,0 +1,7 @@
+C:\Users\DAC-4\source\repos\DotNet35FSol\DotNet35FSol\bin\Debug\DotNet35FSol.exe.config
+C:\Users\DAC-4\source\repos\DotNet35FSol\DotNet35FSol\bin\Debug\DotNet35FSol.exe
+C:\Users\DAC-4\source\repos\DotNet35FSol\DotNet35FSol\bin\Debug\DotNet35FSol.pdb
+C:\Users\DAC-4\source\repos\DotNet35FSol\DotNet35FSol\obj\Debug\DotNet35FSol.csprojAssemblyReference.cache
+C:\Users\DAC-4\source\repos\DotNet35FSol\DotNet35FSol\obj\Debug\DotNet35FSol.csproj.CoreCompileInputs.cache
+C:\Users\DAC-4\source\repos\DotNet35FSol\DotNet35FSol\obj\Debug\DotNet35FSol.exe
+C:\Users\DAC-4\source\repos\DotNet35FSol\DotNet35FSol\obj\Debug\DotNet35FSol.pdb
